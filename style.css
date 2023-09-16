@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Cabin', sans-serif;
+    color: white;
 }
 h1 {
     font-size: 30px;
@@ -53,6 +54,7 @@ main {
     height: 100%;
     width: 254px;
     float: right;
+    object-fit: cover;
 }
 .yellow_bg {
     background-color: #FFC905;
@@ -63,8 +65,9 @@ main {
 
 
 .profile {
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     padding: 66px 14px 6px 32px;
+    color: black;
 }
 .profile h3 {
     margin-top: 6px;
