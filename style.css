@@ -23,6 +23,11 @@ p {
 span {
     font-size: 10px;
 }
+.yellow_rectangle {
+    height: 2px;
+    width: 17px;
+    background-color: #FFC905;
+}
 
 main {
     /* background-color: rgb(102, 142, 177); */
@@ -49,10 +54,29 @@ main {
     width: 254px;
     float: right;
 }
+.yellow_bg {
+    background-color: #FFC905;
+    width: max-content;
+    padding: 1px 2px 1px 8px;
+    border-radius: 2.5px;
+}
 
 
 .profile {
     background-color: blanchedalmond;
+    padding: 66px 14px 6px 32px;
+}
+.profile h3 {
+    margin-top: 6px;
+    margin-bottom: 29px;
+}
+.profile .yellow_rectangle {
+    /* margin-top: 11px;
+    margin-bottom: 11px; */
+    margin: 11px 0;
+}
+.profile p {
+    font-size: 10px;
 }
 
 
