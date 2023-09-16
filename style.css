@@ -1,0 +1,23 @@
+
+
+
+main {
+    /* background-color: rgb(102, 142, 177); */
+    width: 595px;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 1fr 578px;
+}
+.avatar {
+    background-color: aquamarine;
+}
+.profile {
+    background-color: blanchedalmond;
+}
+.education {
+    background-color: #292935;
+}
+.work {
+    background-color: #22222E;
+}
