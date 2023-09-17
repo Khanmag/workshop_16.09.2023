@@ -32,7 +32,7 @@ span {
 
 main {
     /* background-color: rgb(102, 142, 177); */
-    width: 595px;
+    max-width: 595px;
     min-height: 700px;
     display: grid;
     grid-template-columns: 45% 55%;
@@ -222,5 +222,16 @@ main {
     width: 20px;
     height: 20px;
     object-fit: contain;
+}
+
+
+
+
+
+@media (max-width: 550px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 577px 577px;
+    }
 }
 
